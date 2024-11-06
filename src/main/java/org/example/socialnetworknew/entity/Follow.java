@@ -23,7 +23,6 @@ public class Follow {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "follower_username", nullable=false)
     @JsonBackReference
-//    @JsonIgnore
     private User follower;
 
     // המשתמש שנעקף

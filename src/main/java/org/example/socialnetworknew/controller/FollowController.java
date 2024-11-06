@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/follow")
-@CrossOrigin(origins = "http://localhost:3000")
 public class FollowController {
 
     @Autowired
